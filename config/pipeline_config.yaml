@@ -1,0 +1,35 @@
+hadoop_user: "divithraju"
+name_node: "hdfs://localhost:4444"
+hdfs_base: "/user/divithraju/ecommerce_project"
+raw_path: "/user/divithraju/ecommerce_project/raw"
+processed_path: "/user/divithraju/ecommerce_project/processed"
+models_path: "/user/divithraju/ecommerce_project/models"
+logs_path: "/user/divithraju/ecommerce_project/logs"
+validation_path: "/user/divithraju/ecommerce_project/validation"
+
+api:
+  product_api_url: "https://api.onlinetore.local/v1/products"   
+  product_api_key: "FK_test_ABC123xyz789"                     
+
+mysql:
+  host: "localhost"
+  port: 3306
+  database: "Ecommerce_data"
+  user: "divithraju"
+  password: "divith4321"
+  table: "product_sales"
+
+spark:
+  app_name: "Ecommerce_Pricing_ETL"
+  master: "local[*]"
+  executor_memory: "4g"
+  driver_memory: "2g"
+
+mlflow:
+  tracking_uri: "http://localhost:5444"   
+  experiment_name: "pricing_optimization"
+  model_registry: "PricingModels"
+
+scheduler:
+  type: "airflow"
+  frequency: "daily"

@@ -181,7 +181,3 @@ http://127.0.0.1:8000
 🎓 B.Tech – Artificial Intelligence & Data Science (2026)
 📍 Bangalore, India
 🔗 GitHub: [https://github.com/divithraju](https://github.com/divithraju)
-
----
-
-⭐ *For recruiters and interviewers:* This project demonstrates **real-world ecommerce pricing optimization and backend engineering skills**, not academic examples.

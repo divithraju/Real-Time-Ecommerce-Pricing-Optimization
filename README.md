@@ -178,6 +178,6 @@ http://127.0.0.1:8000
 ## 📞 Contact
 
 **Divith Raju**
-🎓 B.Tech – Artificial Intelligence & Data Science (2026)
+🎓 B.Tech 
 📍 Bangalore, India
 🔗 GitHub: [https://github.com/divithraju](https://github.com/divithraju)
